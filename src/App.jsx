@@ -6,7 +6,7 @@ export default function App() {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(100);
 
-  const squaredValue = (value) => {
+  const squaredValue = () => {
     console.log("some Expensive calculations");
     return count1 * count1;
   };
